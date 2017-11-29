@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+    <head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+        <title>Noah Boursier</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Template CSS Files
+        ================================================== -->
+        <!-- Twitter Bootstrs CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Ionicons Fonts Css -->
+        <link rel="stylesheet" href="css/ionicons.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- Hero area slider css-->
+        <link rel="stylesheet" href="css/slider.css">
+        <!-- owl craousel css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <!-- template main css file -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        <!-- Template Javascript Files
+        ================================================== -->
+        <!-- modernizr js -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- jquery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- owl carouserl js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- bootstrap js -->
+
+        <script src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <!-- slider js -->
+        <script src="js/slider.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
+        <!-- template main js -->
+        <script src="js/main.js"></script>
+        
+        
+		<script src="js/angular.min.js"></script>
+		
+		<script src="js/angular-route.js"></script>
+
+        <script src="js/router.js"></script>
+        
+        
+        <script>
+		function scrollWin() {
+		window.scrollTo(0, 0);
+		}
+		</script>
+        
+    </head>
+    
+    <body ng-app="Site">
+        
+        <!--
+        ==================================================
+        Header Section Start
+        ================================================== -->
+        <header id="top-bar" class="navbar-fixed-top animated-header">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <!-- /responsive nav button -->
+                    
+                    <!-- logo -->
+                    <div class="navbar-brand">
+                        <a href="index.html" >
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <!-- /logo -->
+                </div>
+                <!-- main menu -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <div class="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home" onclick="setTimeout(scrollWin, 150)">Home</a></li>
+                            <li><a href="#about" onclick="setTimeout(scrollWin, 150)">About</a></li>
+							<li><a href="#resume" onclick="setTimeout(scrollWin, 150)">Resume</a></li>
+                            <li><a href="#portfolio" onclick="setTimeout(scrollWin, 150)">Portfolio</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fun Stuff <span class="caret"></span></a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="#Music" onclick="setTimeout(scrollWin, 150)">Music</a></li>
+                                        <li><a href="#Gallery" onclick="setTimeout(scrollWin, 150)">Gallery</a></li>
+                                        <li><a href="#Links" onclick="setTimeout(scrollWin, 150)">Links</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#contact" onclick="setTimeout(scrollWin, 150)">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /main nav -->
+            </div>
+        </header>
+		
+		<div ng-view></div> <!-- Angular Javascript will put all my infos in here :D -->
+
+        <!--
+        ==================================================
+        Call To Action Section Start
+        ================================================== -->
+        <section id="call-to-action">
+            <div class="container">
+                <div class="row">
+                    <div id="bottam" class="col-md-12">
+                        <div class="block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+        <!--
+        ==================================================
+        Footer Section Start
+        ================================================== -->
+        <footer id="footer">
+            <div class="container">
+
+                <div class="col-md-8">
+                    <p class="copyright">Noah Boursier <span>2017</span>. All photos are from me, friends, or family. <!-- Javascript by <a href="http://www.Themefisher.com">Themefisher.com</a></p> -->
+                </div>
+                <div class="col-md-4">
+                    <!-- Social Media -->
+                    <ul class="social">
+                        <!--<li>
+                            <a href="#" class="Facebook">
+                                <i class="ion-social-facebook"></i>
+                            </a>
+                        </li>-->
+                        <!--<li>
+                            <a href="#" class="Twitter">
+                                <i class="ion-social-twitter"></i>
+                            </a>
+                        </li>-->
+                        <!--li>
+                            <a href="#" class="Linkedin">
+                                <i class="ion-social-linkedin"></i>
+                            </a>
+                        </li>-->
+                        <li>
+                            <a href="https://plus.google.com/u/0/113922702402918351779" class="Google Plus">
+                                <i class="ion-social-googleplus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer> <!-- /#footer -->
+                
+    </body>
+</html>
