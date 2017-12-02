@@ -12,6 +12,18 @@ MyHomeApp.config(['$routeProvider',
                     when('/p-marbles', {
                       templateUrl: 'projPages/p-marbles.html'
                     }).
+                    when('/p-robotics', {
+                      templateUrl: 'projPages/p-robotics.html'
+                    }).
+                    when('/p-treehouse', {
+                      templateUrl: 'projPages/p-treehouse.html'
+                    }).
+                    when('/p-enscribe', {
+                      templateUrl: 'projPages/p-enscribe.html'
+                    }).
+                    when('/p-macquarium', {
+                      templateUrl: 'projPages/p-macquarium.html'
+                    }).
                     when('/resume', {
                       templateUrl: 'resume.html'
                     }).
