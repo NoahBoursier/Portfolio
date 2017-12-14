@@ -3,9 +3,6 @@ var MyHomeApp = angular.module('Site', []);
 MyHomeApp.config(['$routeProvider',
                 function($routeProvider) {
                   $routeProvider.
-                    when('/contact', {
-                      templateUrl: 'contact.html'
-                    }).
                     when('/p-broadway', {
                       templateUrl: 'projPages/p-broadway.html'
                       }).
@@ -23,6 +20,13 @@ MyHomeApp.config(['$routeProvider',
                     }).
                     when('/p-macquarium', {
                       templateUrl: 'projPages/p-macquarium.html'
+                    }).
+                    when('/contact', {
+                      templateUrl: 'contact.html'
+                      
+                    }).
+                    when('/portfolio', {
+                      templateUrl: 'portfolio.html'
                     }).
                     when('/resume', {
                       templateUrl: 'resume.html'
