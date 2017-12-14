@@ -11,6 +11,25 @@ replaced with: # 7E9E44
 
 @CTRL H to replace*/
 
+@keyframes slideIn {
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}
+
+@keyframes slideOut {
+    from    { transform:translateY(0); }
+    to      { transform: translateY(-100%); }
+}
+
+...
+
+    .ng-enter           { animation: slideIn 0.5s both ease-in; z-index: 8888; }
+    .ng-leave           { animation: slideOut 0.5s both ease-in; z-index: 9999; }
+
+...
+
+
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -22,7 +41,41 @@ h5,
 h6 {
   font-family: 'Roboto Condensed', sans-serif;
 }
-
+.pad40 {
+  padding: 40px 0 10px;
+}
+#callToRoamer {
+  background: #82a346;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 55px 0;
+  position: relative;
+}
+#callToRoamer:before {
+  content: '';
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#callToRoamer .block {
+  position: relative;
+  z-index: 999;
+}
+#callToRoamer .btn {
+  background: #414141;
+  border: none;
+  color: #fff;
+  padding: 20px 60px;
+  font-size: 16px;
+  font-size: 13px;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  border-radius: 0;
+}
 img.centered {
     display: block;
     margin-left: auto;
@@ -269,7 +322,7 @@ a:hover {
   max-width: 100%;
 }
 .works {
-  padding: 80px 0;
+  padding: 20px 0;
   background: #FCFCFC;
 }
 .works .block {
@@ -432,7 +485,7 @@ figure figcaption p {
   text-shadow: #7E9E44 1px 1px, #7E9E44 2px 2px, #7E9E44 3px 3px, #7E9E44 4px 4px, #7E9E44 5px 5px, #7E9E44 6px 6px, #7E9E44 7px 7px, #7E9E44 8px 8px, #7E9E44 9px 9px, #7E9E44 10px 10px, #7E9E44 11px 11px, #7E9E44 12px 12px, #7E9E44 13px 13px, #7E9E44 14px 14px, #7E9E44 15px 15px, #7E9E44 16px 16px, #7E9E44 17px 17px, #7E9E44 18px 18px, #7E9E44 19px 19px, #7E9E44 20px 20px, #7E9E44 21px 21px, #7E9E44 22px 22px, #7E9E44 23px 23px, #7E9E44 24px 24px, #7E9E44 25px 25px, #7E9E44 26px 26px, #7E9E44 27px 27px, #7E9E44 28px 28px, #7E9E44 29px 29px, #7E9E44 30px 30px, #7E9E44 31px 31px, #7E9E44 32px 32px, #7E9E44 33px 33px, #7E9E44 34px 34px, #7E9E44 35px 35px, #7E9E44 36px 36px, #7E9E44 37px 37px, #7E9E44 38px 38px, #7E9E44 39px 39px, #7E9E44 40px 40px, #7E9E44 41px 41px, #7E9E44 42px 42px, #7E9E44 43px 43px, #7E9E44 44px 44px, #7E9E44 45px 45px, #7E9E44 46px 46px, #7E9E44 47px 47px, #7E9E44 48px 48px, #7E9E44 49px 49px, #7E9E44 50px 50px, #7E9E44 51px 51px, #7E9E44 52px 52px, #7E9E44 53px 53px, #7E9E44 54px 54px, #7E9E44 55px 55px, #7E9E44 56px 56px, #7E9E44 57px 57px, #7E9E44 58px 58px, #7E9E44 59px 59px, #7E9E44 60px 60px, #7E9E44 61px 61px, #7E9E44 62px 62px, #7E9E44 63px 63px, #7E9E44 64px 64px, #7E9E44 65px 65px, #7E9E44 66px 66px, #7E9E44 67px 67px, #7E9E44 68px 68px, #7E9E44 69px 69px, #7E9E44 70px 70px, #7E9E44 71px 71px, #7E9E44 72px 72px, #7E9E44 73px 73px, #7E9E44 74px 74px, #7E9E44 75px 75px, #7E9E44 76px 76px, #7E9E44 77px 77px, #7E9E44 78px 78px, #7E9E44 79px 79px, #7E9E44 80px 80px, #7E9E44 81px 81px, #7E9E44 82px 82px, #7E9E44 83px 83px, #7E9E44 84px 84px, #7E9E44 85px 85px, #7E9E44 86px 86px, #7E9E44 87px 87px, #7E9E44 88px 88px, #7E9E44 89px 89px, #7E9E44 90px 90px, #7E9E44 91px 91px, #7E9E44 92px 92px, #7E9E44 93px 93px, #7E9E44 94px 94px, #7E9E44 95px 95px, #7E9E44 96px 96px, #7E9E44 97px 97px, #7E9E44 98px 98px, #7E9E44 99px 99px, #7E9E44 100px 100px;
 }
 #contact-section {
-  padding: 90px 0;
+  padding: 20px 0;
 }
 #contact-section .contact-form {
   margin-top: 42px;
@@ -873,7 +926,7 @@ ul.social-icons li {
   padding: 4px 12px;
 }
 .about-feature {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .about-feature .block {
   color: #fff;
@@ -881,11 +934,21 @@ ul.social-icons li {
   padding: 5%;
   float: left;
 }
+.about-feature .blockThinMargins {
+  color: #fff;
+  width: 33.33%;
+  padding: 1.5%;
+  float: left;
+}
+.about-feature .centerText {
+  text-align: center;
+}
 .about-feature .block p {
   font-weight: 300;
 }
 .about-feature .about-feature-1 {
   background: #82a346;
+
 }
 .about-feature .about-feature-2 {
   background: #728f3d;
