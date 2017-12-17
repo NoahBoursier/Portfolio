@@ -36,6 +36,9 @@ MyHomeApp.config(['$routeProvider',
                     when('/about', {
                       templateUrl: 'about.html'
                     }).
+                    when('/404', {
+                      templateUrl: '404.html'
+                    }).
                     when('/home', {
                         templateUrl: 'home.html',
                         controller: 'WGHomeLanCtrl'

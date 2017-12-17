@@ -76,6 +76,42 @@ h6 {
   letter-spacing: normal;
   border-radius: 0;
 }
+
+#resumeButton {
+  background: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 25px 0;
+  position: relative;
+}
+#resumeButton:before {
+  content: '';
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#resumeButton .block {
+  position: relative;
+  z-index: 999;
+}
+#resumeButton .btn {
+  background: #414141;
+  border: none;
+  color: #fff;
+  padding: 20px 60px;
+  font-size: 16px;
+  font-size: 13px;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  border-radius: 0;
+}
+
+
+
 img.centered {
     display: block;
     margin-left: auto;
