@@ -22,8 +22,10 @@ MyHomeApp.config(['$routeProvider',
                       templateUrl: 'projPages/p-macquarium.html'
                     }).
                     when('/contact', {
-                      templateUrl: 'contact.html'
-                      
+                      templateUrl: 'contact.html'  
+                    }).
+                    when('/art', {
+                      templateUrl: 'art.html'
                     }).
                     when('/portfolio', {
                       templateUrl: 'portfolio.html'

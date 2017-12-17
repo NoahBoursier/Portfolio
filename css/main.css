@@ -429,6 +429,13 @@ figure .buttons {
   top: 45%;
   left: 24%;
 }
+
+figure .button1 {
+  position: absolute;
+  top: 45%;
+  left: 38%;
+}
+
 figure figcaption {
   padding: 20px 25px;
   margin-top: 0;
@@ -833,20 +840,20 @@ ul.social-icons li {
   left: 14%;
 }
 .fancybox-close {
-  background: url("../images/icons/close.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/icons/close.png") no-repeat scroll 0 0 transparent #82a346;
   height: 50px;
   right: 0;
   top: 0;
   width: 50px;
 }
 .fancybox-next span {
-  background: url("../images/icons/right.png") no-repeat scroll center center #009ee3;
+  background: url("../images/icons/right.png") no-repeat scroll center center #82a346;
   height: 50px;
   width: 50px;
   right: 0;
 }
 .fancybox-prev span {
-  background: url("../images/icons/left.png") no-repeat scroll center center #009ee3;
+  background: url("../images/icons/left.png") no-repeat scroll center center #82a346;
   height: 50px;
   width: 50px;
   left: 0;
@@ -1070,6 +1077,14 @@ article {
 .gallery figure .buttons {
   left: 40%;
 }
+
+.gallery2 {
+  padding: 100px;
+}
+.gallery2 figure .buttons {
+  left: 40%;
+}
+
 .portfolio-meta span {
   margin: 5px 10px;
   font-weight: 300;
