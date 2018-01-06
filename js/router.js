@@ -21,6 +21,15 @@ MyHomeApp.config(['$routeProvider',
                     when('/p-macquarium', {
                       templateUrl: 'projPages/p-macquarium.html'
                     }).
+                    when('/p-netlogo', {
+                      templateUrl: 'projPages/p-netlogo.html'
+                    }).
+                    when('/p-rocket', {
+                      templateUrl: 'projPages/p-rocket.html'
+                    }).
+                    when('/p-dosemaster', {
+                      templateUrl: 'projPages/p-dosemaster.html'
+                    }).
                     when('/contact', {
                       templateUrl: 'contact.html'  
                     }).

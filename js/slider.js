@@ -56,10 +56,10 @@ jQuery(document).ready(function($){
 					width = 0;
 				words.each(function(){
 					var wordWidth = $(this).width();
-				    if (wordWidth > width) width = wordWidth;
+                    if (wordWidth > width) width = wordWidth;
 				});
 				headline.find('.cd-words-wrapper').css('width', width);
-			};
+			}
 
 			//trigger animation
 			setTimeout(function(){ hideWord( headline.find('.is-visible').eq(0) ) }, duration);
