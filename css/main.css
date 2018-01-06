@@ -245,12 +245,12 @@ a:hover {
   opacity: 0;
 }
 #hero-area {
-  background: url('../images/landscape3.jpg') no-repeat 50%;
+  background: url('../images/landscape.jpg') no-repeat 50%;
   background-size: cover;
   background-attachment: fixed;
   padding: 230px 0;
   color: #fff;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
   position: relative;
 }
 #hero-area:before {
@@ -1118,6 +1118,27 @@ article {
   padding: 100px;
 }
 .gallery2 figure .buttons {
+  left: 40%;
+}
+
+.gallery3 {
+  padding: 100px;
+}
+.gallery3 figure .buttons {
+  left: 40%;
+}
+
+.gallery4 {
+  padding: 100px;
+}
+.gallery4 figure .buttons {
+  left: 40%;
+}
+
+.gallery5 {
+  padding: 100px;
+}
+.gallery5 figure .buttons {
   left: 40%;
 }
 
